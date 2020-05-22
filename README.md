@@ -29,3 +29,7 @@ https://neilpatel.com/blog/seo-urls
 ## 3 pages with no <title> tag
 https://neilpatel.com/blog/title-tags-seo/
 
+## Submit site to Search Engines
+https://www.ionos.com/digitalguide/websites/website-creation/registering-a-website-submitting-urls-to-google/
+https://www.google.com/webmasters/tools/submit-url?pli=1
+
