@@ -1,0 +1,6 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ophify.com[nc]
+RewriteRule ^(.*)$ http://www.ophify.com/$1 [r=301,nc]
+ 
