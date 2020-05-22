@@ -3,8 +3,8 @@ SEO Content Writing and Digital Marketing Agency website launch
 
 
 ## Needed
-- Sitemap
-- SSL Cert
+- Sitemap https://neilpatel.com/blog/xml-sitemap/
+- SSL Cert https://www.freecodecamp.org/news/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec/
 - marketing articles
 - illustration images
 
@@ -14,3 +14,18 @@ SEO Content Writing and Digital Marketing Agency website launch
 
 ## Page speed issues found.
 ## 9 images do not have alt text.
+
+## You could reduce (18.5 KiB) by minifying the asset(s) listed below.
+URL 	Reduction size
+  /assets/vendor/remixicon/remixicon.css 	10.5 KiB (11%)
+  /assets/css/style.css 	8.1 KiB (30%)
+ 
+## We didn't detect any schema.org items on your webpage
+Schema.org is a set of vocabularies used to add meaning to the information on a webpage in a way that is readable by machines (Google). Schema.org vocabularies include attributes for entities, relationships between entities and actions.
+
+## with a poorly formatted URL for SEO
+https://neilpatel.com/blog/seo-urls
+
+## 3 pages with no <title> tag
+https://neilpatel.com/blog/title-tags-seo/
+
