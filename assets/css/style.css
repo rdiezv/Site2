@@ -1606,18 +1606,18 @@ section {
 }
 
 /* ***************
- * FB on left side 
+ * FB on right next side 
  ******************/
 /* this is for the circle position */
 .fb_dialog.fb_dialog_advanced {
-    left: 18pt;
+    right: 18pt;
+  margin-right: 50px;
 }
-
-/* The following are for the chat box, on display and on hide */
 iframe.fb_customer_chat_bounce_in_v2 {
-    left: 9pt;
+    right: 9pt;
+   margin-right: 50px;
 }
 iframe.fb_customer_chat_bounce_out_v2 {
-    left: 9pt;
+    right: 9pt;
+   margin-right: 50px;
 }
-
