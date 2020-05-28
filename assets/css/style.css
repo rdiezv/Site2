@@ -1621,5 +1621,6 @@ iframe.fb_customer_chat_bounce_out_v2 {
       left: 9pt;
 }
 
-.fb_customer_chat_bubble_pop_in {top:20px!important}
-
+@media screen and (max-width: 768px) {
+.fb_customer_chat_bubble_pop_in {top:40px!important}
+}
