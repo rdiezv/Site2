@@ -1609,7 +1609,7 @@ section {
  * FB on left next side 
  ******************/
 /* this is for the circle position */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 360px) {
     .fb_dialog.fb_dialog_advanced {
       left: 18pt;
   }
