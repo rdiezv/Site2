@@ -1609,48 +1609,17 @@ section {
  * FB on left next side 
  ******************/
 /* this is for the circle position */
-@media screen and (max-width: 360px) {
-    .fb_dialog.fb_dialog_advanced {
-      left: 18pt;
-  }
-
-  /* The following are for the chat box, on display and on hide */
-  iframe.fb_customer_chat_bounce_in_v2 {
-      left: 9pt;
-  }
-  iframe.fb_customer_chat_bounce_out_v2 {
-      left: 9pt;
-  }
-}
-
-/* ***************
- * FB on right next side 
- ******************/
 .fb_dialog.fb_dialog_advanced {
-    right: 18pt;
-  margin-right: 50px;
+   left: 18pt;
 }
+
+/* The following are for the chat box, on display and on hide */
 iframe.fb_customer_chat_bounce_in_v2 {
-    right: 9pt;
-   margin-right: 50px;
+   left: 9pt;
 }
 iframe.fb_customer_chat_bounce_out_v2 {
-    right: 9pt;
-   margin-right: 50px;
+      left: 9pt;
 }
 
+.fb_customer_chat_bubble_pop_in {top:20px!important}
 
-@media screen and (max-width: 360px) {
-  .fb_dialog.fb_dialog_advanced {
-    right: 18pt;
-  margin-left: 50px;
-  }
-  iframe.fb_customer_chat_bounce_in_v2 {
-      right: 9pt;
-     margin-left: 50px;
-  }
-  iframe.fb_customer_chat_bounce_out_v2 {
-      right: 9pt;
-     margin-left: 50px;
-  }
-}
