@@ -3,8 +3,6 @@ SEO Content Writing and Digital Marketing Agency website launch
 
 
 ## Needed
-- Sitemap https://neilpatel.com/blog/xml-sitemap/
-- SSL Cert https://www.freecodecamp.org/news/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec/
 - marketing articles
 - illustration images
 
@@ -31,5 +29,5 @@ https://neilpatel.com/blog/title-tags-seo/
 
 ## Submit site to Search Engines
 https://www.ionos.com/digitalguide/websites/website-creation/registering-a-website-submitting-urls-to-google/
-https://www.google.com/webmasters/tools/submit-url?pli=1
+
 
