@@ -5,18 +5,18 @@ SEO Content Writing and Digital Marketing Agency website launch
 ## Needed
 - [ ] marketing articles
 - [ ] illustration images
-- [x ] SSL
-- [ x] Analytics
-- [x ] Google Search Console
-- [x ] Sitemap XML
-- [ x] netlify contact form
+- [x] SSL
+- [x] Analytics
+- [x] Google Search Console
+- [x] Sitemap XML
+- [x] netlify contact form
 
 ## Accessibility issues found. Not screen reader friendly.
 - [ ] No skip to main content link.
 - [ ] Alt text missing.
 
-## - [ ] Page speed issues found.
-## - [ ] 9 images do not have alt text.
+##  Page speed issues found.
+## 9 images do not have alt text.
 
 ## You could reduce (18.5 KiB) by minifying the asset(s) listed below.
 URL 	Reduction size
