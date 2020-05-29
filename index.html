@@ -545,6 +545,23 @@
                   <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
+              
+              <!--               css tricks template -->
+              <form class="email-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                <div hidden aria-hidden="true" data-aos="fade-up" data-aos-delay="200">           
+                  <label>
+                    Don’t fill this out if you're human: 
+                    <input name="bot-field" />
+                  </label>
+                </div>
+                <label for="email">Stay up to date</label>
+                <div>
+                  <input type="email" name="email" placeholder="Email"  id="email" required />
+                  <button type="submit">Subscribe</button>
+                </div>
+            </form>
+              <!--             End  css tricks template -->
+              
             </div>
 
             <div
@@ -631,32 +648,17 @@
                 <div class="form-group">
                   <div data-netlify-recaptcha="true"></div> 
                 </div>
-<!--                 <div class="mb-3">
+                <div class="mb-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">
                     Your message has been sent. Thank you!
                   </div>
-                </div> -->
+                </div>
                 <div class="text-center">
                   <button type="submit">Send Message</button>
                 </div>
               </form>
-              
-<!--               css tricks template -->
-              <form class="email-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-                <div hidden aria-hidden="true">
-                  <label>
-                    Don’t fill this out if you're human: 
-                    <input name="bot-field" />
-                  </label>
-                </div>
-                <label for="email">Your email address</label>
-                <div>
-                  <input type="email" name="email" placeholder="Email"  id="email" required />
-                  <button type="submit">Subscribe</button>
-                </div>
-            </form>
               
             </div>
           </div>
