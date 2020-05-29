@@ -7,9 +7,9 @@ SEO Content Writing and Digital Marketing Agency website launch
 - illustration images
 - SSL
 - Analytics
-~~- Google Search Console
-~ - Sitemap XML
-~- netlify contact form
+~~- Google Search Console ~~
+~~- Sitemap XML ~~
+~~- netlify contact form~~
 
 ## Accessibility issues found. Not screen reader friendly.
 - No skip to main content link.
