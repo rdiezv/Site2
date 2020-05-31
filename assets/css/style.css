@@ -3,6 +3,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
+  font-display: fallback;
   color: #444444;
 }
 
