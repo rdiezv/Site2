@@ -38,8 +38,8 @@
 
     <!-- Google Fonts -->
     <!-- <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700,|Poppins:300,400,500,600,700"
-      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="preconnect"
     /> -->
 
     <!-- Vendor CSS Files -->
@@ -50,12 +50,8 @@
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
-      rel="stylesheet"
-    />
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="dstylesheet" />
     <link rel=“canonical” href=“https://www.ophify.com/” />
 
     <!-- Template Main CSS File -->
@@ -77,8 +73,8 @@
         <nav class="nav-menu d-none d-lg-block">
           <ul>
             <li><a href="#services">What we offer</a></li>
-            <li><a href="packages.html">Packages</a></li>
             <li><a href="#blog">Knowledge Base</a></li>
+            <li><a href="packages.html">Packages</a></li>
             <li class="get-started"><a href="#contact">Get Started</a></li>
           </ul>
         </nav>
@@ -121,6 +117,10 @@
     <!-- End Hero -->
 
     <main id="main">
+      <!-- ======= Clients Section ======= -->
+
+      <!-- End Clients Section -->
+
       <!-- ======= About Us Section ======= -->
       <section id="about" class="about">
         <div class="container">
@@ -134,11 +134,11 @@
               data-aos="fade-right"
               data-aos-delay="150"
             >
-              <img src="assets/img/counts-img.svg" alt="" class="img-fluid" />
+              <img src="assets/img/counts-img.webp" alt="" class="img-fluid" />
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
-              <p>
+              <p id="about-section">
                 Ophify is a full-service digital marketing agency that fuels
                 your growth and online presence. There's no one size fits all
                 when it comes to marketing that's why we tailor-fit our digital
@@ -207,8 +207,7 @@
                 <div class="icon"><i class="bx bx-chart"></i></div>
                 <h4 class="title"><a href="">eMarketing</a></h4>
                 <p class="description">
-                  Newsletter Management, Marketing Automation, and Lead
-                  Generation.
+                  Email Newsletter, Marketing Automation, and Lead Generation.
                 </p>
                 <br />
                 <p class="read-more">
@@ -446,7 +445,7 @@
                   <a href="skype:live:.cid.940b25fa5e7e0443?add"
                     ><i class="icofont-skype"></i
                   ></a>
-                  <p>Ophify Team</p>
+                  <p>Ophify Info</p>
                 </div>
               </div>
             </div>
@@ -535,10 +534,6 @@
             </div>
 
             <div class="credits">
-              <!-- All the links in the footer should remain intact. -->
-              <!-- You can delete the links only if you purchased the pro version. -->
-              <!-- Licensing information: https://bootstrapmade.com/license/ -->
-              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ -->
               Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
           </div>
@@ -556,7 +551,7 @@
     <!-- End Footer -->
 
     <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root" data-aos="fade-up" data-aos-delay="300"></div>
+    <!-- <div id="fb-root"></div>
     <script>
       window.fbAsyncInit = function () {
         FB.init({
@@ -574,32 +569,37 @@
         js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
         fjs.parentNode.insertBefore(js, fjs);
       })(document, "script", "facebook-jssdk");
-    </script>
+    </script> -->
 
     <!-- Your Chat Plugin code -->
-    <div
+    <!-- <div
       class="fb-customerchat"
       attribution="install_email"
       page_id="100876041656057"
       theme_color="#4169e1"
-    ></div>
+    ></div> -->
     <!-- End of Facebook Chat Plugin code -->
 
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="assets/vendor/counterup/counterup.min.js"></script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/venobox/venobox.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
+    <script
+      async
+      src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+    ></script>
+    <script
+      async
+      src="assets/vendor/jquery.easing/jquery.easing.min.js"
+    ></script>
+    <script
+      async
+      src="assets/vendor/waypoints/jquery.waypoints.min.js"
+    ></script>
+    <script defer src="assets/vendor/venobox/venobox.min.js"></script>
+    <script defer src="assets/vendor/aos/aos.js"></script>
 
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script async src="assets/js/main.js"></script>
   </body>
 </html>
+/
