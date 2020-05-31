@@ -1,7 +1,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-font-family: "Open Sans Regular";
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+  font-family: "Open Sans Regular";
   font-weight: 400;
   font-style: normal;
   src: url("fonts/OpenSans-Regular-BasicLatin.woff2") format("woff2");
@@ -9,7 +12,7 @@ font-family: "Open Sans Regular";
 }
 
 body {
-  font-family: "Open Sans", sans-serif; 
+  font-family: "Open Sans", Fallback,   sans-serif; 
   color: #444444;
 }
 
