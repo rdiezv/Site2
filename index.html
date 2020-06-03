@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#>
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -31,12 +31,14 @@
       name="keywords"
       content="Ophify, digital marketing, SEO, content writing, search engine optimization"
     />
+    <meta property="og:site_name" content="Ophify" />
 
     <!-- Favicons -->
     <link href="assets/img/ophify-favicon.svg" rel="icon" />
     <link href="assets/img/ophify-apple-favicon.svg" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin /> -->
     <!-- <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700,|Poppins:300,400,500,600,700"
       rel="stylesheet"
@@ -629,5 +631,31 @@
 
     <!-- Template Main JS File -->
     <script defer src="assets/js/main.js"></script>
+
+    <!-- Template Main JS File -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: "{383781475893079}",
+          cookie: true,
+          xfbml: true,
+          version: "{v7.0}",
+        });
+
+        FB.AppEvents.logPageView();
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+          return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
   </body>
 </html>
